@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import UsernameForm from './components/UsernameForm'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Electron Desktop Starter Template</h1>
+      <div className="pa3">
+        <UsernameForm />  
       </div>
     )
   }
